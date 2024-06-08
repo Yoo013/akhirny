@@ -13,7 +13,6 @@ const Signup = () => {
     const [password, setPassword] = useState("")
 
     const navigate = useNavigate()
-axios.defaults.withCredentials
     const handleSubmit = (e) => {
 e.preventDefault()
  Axios.post("https://akhirny-api.vercel.app/auth/signup", {
